@@ -21,7 +21,7 @@ const Header = () => {
                             <div className="navbar-nav ms-auto">
                                 <Link to="/home" className="nav-link text-white">Home</Link>
                                 <Link to="/doctors" className="nav-link text-white">Doctors</Link>
-                                <Link to="/blog" className="nav-link text-white">Blogs</Link>
+                                <Link to="/appointment" className="nav-link text-white">Appointment</Link>
                                 {
                                     user?.email ? <span className='mt-2 text-warning'> {user.displayName} </span> : (<span></span>)
                                 }

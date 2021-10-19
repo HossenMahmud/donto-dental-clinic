@@ -1,6 +1,6 @@
 # Donto Dental Clinic React App
 
-Live Site:[Dento-Dental](https://github.com/facebook/create-react-app).
+Live Site:[Dento-Dental](https://donto-dental-clinic-697d3.web.app/).
 
 ## The Main Purpose Of The Project
 *  This site contains different types dental treatment service
