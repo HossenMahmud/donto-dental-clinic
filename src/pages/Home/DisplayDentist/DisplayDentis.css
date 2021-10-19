@@ -1,0 +1,27 @@
+.dentist-item{
+    background-color: #f9f9ff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.dentist-info h4{
+    color:#3f4199;
+}
+.dentist-info h6{
+    color:#009640;
+}
+.d-icon{
+    font-size: 16px;
+    color:#009640;
+    background-color: rgba(0, 150, 64, 0.15);
+    padding:5px 8px;
+    border-radius: 10px;
+}
+.clock-icon{
+    font-size: 16px;
+    color:#3f4199;
+    background-color:rgba(63, 65, 153, 0.15);
+    padding:5px 8px;
+    border-radius: 10px;
+}

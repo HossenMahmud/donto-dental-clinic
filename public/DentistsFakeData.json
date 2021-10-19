@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name": "Dr. David Costa",
+        "img": "https://i.ibb.co/Rz3q2Yw/dentist1.jpg",
+        "dept": "General Dentist",
+        "visit_hour": "09am - 12pm",
+        "rating": 5.0
+    },
+    {
+        "id": 2,
+        "name": "Dr. Julia Smith",
+        "img": "https://i.ibb.co/MG6k95f/dentist2.jpg",
+        "dept": "Orthodontist",
+        "visit_hour": "12am - 4pm",
+        "rating": 4.9
+    },
+    {
+        "id": 3,
+        "name": "Dr. Thomas Albart",
+        "img": "https://i.ibb.co/YbWS8Np/dentist3.jpg",
+        "dept": "Orthodontist",
+        "visit_hour": "11am - 3pm",
+        "rating": 4.8
+    },
+    {
+        "id": 4,
+        "name": "Dr. Rebeca Smith",
+        "img": "https://i.ibb.co/HrX0KMn/dentist4.jpg",
+        "dept": "Cosmetic Dentist",
+        "visit_hour": "5pm - 8pm",
+        "rating": 4.5
+    },
+    {
+        "id": 5,
+        "name": "Dr. David Costa",
+        "img": "https://i.ibb.co/YPcbVtn/dentist5.jpg",
+        "dept": "Cosmetic Dentist",
+        "visit_hour": "12am - 6pm",
+        "rating": 4.6
+    },
+    {
+        "id": 6,
+        "name": "Dr. Malayeka Smith",
+        "img": "https://i.ibb.co/LCxWqJ4/dentist6.jpg",
+        "dept": "Dental Sergeon",
+        "visit_hour": "12am - 8pm",
+        "rating": 5.0
+    },
+    {
+        "id": 7,
+        "name": "Dr. Alex Stuart",
+        "img": "https://i.ibb.co/ph448P6/dentist7.jpg",
+        "dept": "Dental Sergeon",
+        "visit_hour": "5pm - 10pm",
+        "rating": 4.7
+    },
+    {
+        "id": 8,
+        "name": "Dr. Hasim Amla",
+        "img": "https://i.ibb.co/LrBd0s8/dentist8.jpg",
+        "dept": "Cosmetic Dentist",
+        "visit_hour": "8pm - 10pm",
+        "rating": 5.0
+    }
+]

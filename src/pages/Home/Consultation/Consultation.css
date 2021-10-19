@@ -1,0 +1,36 @@
+.consultation-bg{
+    background-image:linear-gradient(#009640, transparent);
+    padding: 100px 1px;
+}
+.consultation-info h2{
+    color: #2c343b;
+    font-size: 40px;
+    font-weight: bold;
+}
+.consultation-info p{
+    color: #2c343b;
+    font-size: 16px;
+}
+.consultation-info h4{
+    color: #009640;
+    font-size:22px;
+}
+.consultation-info h1{
+    color: #009640;
+    font-size:45px;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width:575px){
+    .consultation-info h2{
+        font-size:38px
+    }
+    .consultation-info h4{
+        font-size:18px;
+    }
+    .consultation-info h1{
+        font-size:36px;
+    }
+    
+}

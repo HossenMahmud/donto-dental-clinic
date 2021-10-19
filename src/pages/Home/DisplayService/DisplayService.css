@@ -1,0 +1,25 @@
+.service-item{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    background-color: white;
+}
+.service-img img{
+    border-radius: 10px;
+}
+.service-info h3{
+    color: #009640;
+    font-size: 24px;
+    font-weight: bold;
+}
+.service-info p{
+    color: #2c343b;
+}
+.service-info a{
+    text-decoration: none;
+    color: #009640;
+    font-size: 16px;
+    font-weight: bold;
+    padding:5px 10px;
+    border: 1px solid #009640;
+    border-radius: 5px;
+}

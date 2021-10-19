@@ -1,0 +1,38 @@
+.servieDetail-banner{
+    background-color: #00964193;
+    padding: 100px 0px;
+}
+.service-detail-name{
+    color: #3F4199;
+}
+.ser-img img{
+    border-radius: 15px;
+}
+.service-detail-title h2{
+    color: #009640;
+    font-weight: bold;
+}
+
+.service-list-point li{
+    font-size: 20px;
+    color: #3F4199;
+    font-weight: bold;
+}
+.service-details-des p{
+    color: rgb(24, 22, 22);
+    font-size: 16px;
+    line-height: 35px;
+}
+
+@media only screen and (max-width:575px){
+    .service-detail-title h2{
+        color: #009640;
+        font-weight: bold;
+    }
+    
+    .service-list-point li{
+        font-size: 16px;
+        color: #3F4199;
+        font-weight: bold;
+    }
+}

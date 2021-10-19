@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "service_name": "Dental Implants",
+        "img": " https://i.ibb.co/FbD7J9H/service1.jpg",
+        "detail_img": "https://i.ibb.co/kS8Q1nM/service-Details1.jpg",
+        "title": "Replace damaged teeth and support artificial sample with the implants.",
+        "des": "A lot of years the only way for replacing a missing tooth was the bridge systems or dentures. But now it is easy with the dental implants which supplant natural tooth roots and provide a fixed foundation for an artificial tooth.Dental implants come in different sizes, heights, and types, and depend on the condition of your jawbone. The dental implants installation may accept several steps and the preparation can take many months. So this is essential to choose the right types of implants and techniques with your dental implant expert, which will keep in mind your particular needs. Main types of implants and techniques we can provide, can be used to rebuild bone and are listed below.",
+        "price": 100
+    },
+    {
+        "id": 2,
+        "service_name": "Teeth Prosthetics",
+        "img": "https://i.ibb.co/0q2h6R8/service2.jpg",
+        "detail_img": "https://i.ibb.co/jZkBKqN/service-Details2.jpg",
+        "title": "Choose a suitable system for you: implants, bridges, dentures or veneers.",
+        "des": "A lot of years the only way for replacing a missing tooth was the bridge systems or dentures. But now it is easy with the dental implants which supplant natural tooth roots and provide a fixed foundation for an artificial tooth.Dental implants come in different sizes, heights, and types, and depend on the condition of your jawbone. The dental implants installation may accept several steps and the preparation can take many months. So this is essential to choose the right types of implants and techniques with your dental implant expert, which will keep in mind your particular needs. Main types of implants and techniques we can provide, can be used to rebuild bone and are listed below.",
+        "price": 99
+    },
+    {
+        "id": 3,
+        "service_name": "Gum Treatment",
+        "img": "https://i.ibb.co/YL5Xs75/service3.jpg",
+        "detail_img": "https://i.ibb.co/SmKwFgz/service-Details3.jpg",
+        "title": "Protect your teeth from the periodontal disease without surgical treatment.",
+        "des": "A lot of years the only way for replacing a missing tooth was the bridge systems or dentures. But now it is easy with the dental implants which supplant natural tooth roots and provide a fixed foundation for an artificial tooth.Dental implants come in different sizes, heights, and types, and depend on the condition of your jawbone. The dental implants installation may accept several steps and the preparation can take many months. So this is essential to choose the right types of implants and techniques with your dental implant expert, which will keep in mind your particular needs. Main types of implants and techniques we can provide, can be used to rebuild bone and are listed below.",
+        "price": 40
+    },
+    {
+        "id": 4,
+        "service_name": "Teeth Removal",
+        "img": "https://i.ibb.co/bB1ZKXB/service4.jpg",
+        "detail_img": "https://i.ibb.co/Z2x2ZDF/service-Details4.jpg",
+        "title": "Resolve an orthodontic braces preparation or tooth infection with the teeth extraction.",
+        "des": "A lot of years the only way for replacing a missing tooth was the bridge systems or dentures. But now it is easy with the dental implants which supplant natural tooth roots and provide a fixed foundation for an artificial tooth.Dental implants come in different sizes, heights, and types, and depend on the condition of your jawbone. The dental implants installation may accept several steps and the preparation can take many months. So this is essential to choose the right types of implants and techniques with your dental implant expert, which will keep in mind your particular needs. Main types of implants and techniques we can provide, can be used to rebuild bone and are listed below.",
+        "price": 150
+    },
+    {
+        "id": 5,
+        "service_name": "Braces Installation",
+        "img": "https://i.ibb.co/5h4B9FH/service5.jpg",
+        "detail_img": "https://i.ibb.co/5n997xj/service-Details5.jpg",
+        "title": "Redesign your uneven dentures efficiently without the hazard or worries.",
+        "des": "A lot of years the only way for replacing a missing tooth was the bridge systems or dentures. But now it is easy with the dental implants which supplant natural tooth roots and provide a fixed foundation for an artificial tooth.Dental implants come in different sizes, heights, and types, and depend on the condition of your jawbone. The dental implants installation may accept several steps and the preparation can take many months. So this is essential to choose the right types of implants and techniques with your dental implant expert, which will keep in mind your particular needs. Main types of implants and techniques we can provide, can be used to rebuild bone and are listed below.",
+        "price": 90
+    },
+    {
+        "id": 6,
+        "service_name": "Teeth Whitening",
+        "img": "https://i.ibb.co/vBcT18n/service6.jpg",
+        "detail_img": "https://i.ibb.co/qdk1Hf5/service-Details6.jpg",
+        "title": "Make your teeth lighter with no pain or sensitivity during or after the whitening.",
+        "des": "A lot of years the only way for replacing a missing tooth was the bridge systems or dentures. But now it is easy with the dental implants which supplant natural tooth roots and provide a fixed foundation for an artificial tooth.Dental implants come in different sizes, heights, and types, and depend on the condition of your jawbone. The dental implants installation may accept several steps and the preparation can take many months. So this is essential to choose the right types of implants and techniques with your dental implant expert, which will keep in mind your particular needs. Main types of implants and techniques we can provide, can be used to rebuild bone and are listed below.",
+        "price": 50
+    }
+]

@@ -1,0 +1,21 @@
+.partners-info{
+    padding-right: 180px;
+}
+.partners-info h3{
+color: #009640;
+}
+
+.partners-info h1{
+    color: #3F4199;
+    font-size: 45px;
+    font-weight: bold;
+}
+.partners-unique-title{
+    color: #009640;
+}
+
+@media only screen and (max-width:767px) {
+    .partners-info{
+        padding-right: 0px;
+    }
+}

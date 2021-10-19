@@ -1,0 +1,35 @@
+.about-container{
+    background-color: #E4EBF2;
+}
+.about-info h3{
+    color: #009640;
+    font-size: 30px;
+}
+.about-info h1{
+    color: #3f4199;
+    font-size: 60px;
+    font-weight: bold;
+}
+.title-unique-color{
+    color: #009640;
+}
+
+.about-info p{
+    color: #333;
+    font-size: 18px;
+}
+.about-info strong{
+    color: #3f4199;
+    font-size: 20px;
+}
+
+@media only screen and (max-width:576px) {
+    .about-info h3{
+        font-size: 24px;
+    }
+    .about-info h1{
+        font-size: 40px;
+       
+    }
+    
+}
