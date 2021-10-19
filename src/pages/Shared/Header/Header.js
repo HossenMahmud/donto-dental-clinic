@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import useFirebase from '../../../Hooks/useFirebase';
+import useAuth from '../../../Hooks/useAuth';
+// import useFirebase from '../../../Hooks/useFirebase';
 import './Header.css'
 
 const Header = () => {
-    const { handleLogout, user } = useFirebase()
+    const { handleLogout, user } = useAuth()
     return (
         <div className='nb-bg'>
             <div className="container">

@@ -1,12 +1,17 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import useFirebase from '../../Hooks/useFirebase';
+import { Link, useHistory, useLocation } from 'react-router-dom';
+import useAuth from '../../Hooks/useAuth';
+// import useFirebase from '../../Hooks/useFirebase';
 import './Register.css';
 const Register = () => {
-    const { handleUserRegister, error, handleGoogleLogin, handleGithubLogin } = useFirebase();
+    const { handleUserRegister, error, handleGoogleLogin, handleGithubLogin } = useAuth();
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [name, setName] = useState("");
+
+    const history = useHistory();
+    const location = useLocation();
+    const redirect_uri = location.state?.from || '/home';
 
     const hanldeName = (e) => {
         setName(e.target.value);
@@ -19,6 +24,19 @@ const Register = () => {
     };
     const handleRegister = () => {
         handleUserRegister(email, password, name);
+    };
+
+    const signInUsingGoogle = () => {
+        handleGoogleLogin()
+            .then((result) => {
+                history.push(redirect_uri);
+            })
+    };
+    const signInUsingGithub = () => {
+        handleGithubLogin()
+            .then((result) => {
+                history.push(redirect_uri);
+            })
     };
 
     return (
@@ -45,8 +63,8 @@ const Register = () => {
                             </div>
                             <div className='p-3 text-center'>
                                 <h5 className='loginBtn-title'>Login With:</h5>
-                                <button className='loginBtn' onClick={handleGoogleLogin}>Google</button>
-                                <button className='loginBtn' onClick={handleGithubLogin}>GitHub</button>
+                                <button className='loginBtn' onClick={signInUsingGoogle}>Google</button>
+                                <button className='loginBtn' onClick={signInUsingGithub}>GitHub</button>
                             </div>
                         </div>
                     </div >

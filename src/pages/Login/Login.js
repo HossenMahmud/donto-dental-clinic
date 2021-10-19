@@ -1,10 +1,16 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import useFirebase from '../../Hooks/useFirebase';
+import { Link, useHistory, useLocation } from 'react-router-dom';
+import useAuth from '../../Hooks/useAuth';
+// import useFirebase from '../../Hooks/useFirebase';
 const Login = () => {
-    const { handleUserLogin, handleGoogleLogin, handleGithubLogin } = useFirebase();
-    const [email, setEmail] = useState('')
-    const [password, setPassword] = useState('')
+    const { handleUserLogin, handleGoogleLogin, handleGithubLogin } = useAuth();
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+
+    const history = useHistory();
+    const location = useLocation();
+    const redirect_uri = location.state?.from || '/home';
+
     const hanldeEmail = (e) => {
         setEmail(e.target.value);
     };
@@ -12,7 +18,23 @@ const Login = () => {
         setPassword(e.target.value);
     };
     const handleLogin = () => {
-        handleUserLogin(email, password);
+        handleUserLogin(email, password)
+            .then((result) => {
+                history.push(redirect_uri);
+            })
+    };
+
+    const signInUsingGoogle = () => {
+        handleGoogleLogin()
+            .then((result) => {
+                history.push(redirect_uri);
+            })
+    };
+    const signInUsingGithub = () => {
+        handleGithubLogin()
+            .then((result) => {
+                history.push(redirect_uri);
+            })
     };
 
     return (
@@ -36,8 +58,8 @@ const Login = () => {
                             </div>
                             <div className='p-3 text-center'>
                                 <h5 className='loginBtn-title'>Login With:</h5>
-                                <button className='loginBtn' onClick={handleGoogleLogin}>Google</button>
-                                <button className='loginBtn' onClick={handleGithubLogin}>GitHub</button>
+                                <button className='loginBtn' onClick={signInUsingGoogle}>Google</button>
+                                <button className='loginBtn' onClick={signInUsingGithub}>GitHub</button>
                             </div>
                         </div>
                     </div >
